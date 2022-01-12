@@ -1,0 +1,23 @@
+{
+  "name": "agenciaviajenode",
+  "version": "1.0.0",
+  "description": "Primer proyecyo con node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sequelize": "^4.28.11",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^11.0.0"
+  }
+}
